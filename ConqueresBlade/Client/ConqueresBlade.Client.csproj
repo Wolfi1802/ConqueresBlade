@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\DataApi\DataApi.csproj" />
     <ProjectReference Include="..\Shared\ConqueresBlade.Shared.csproj" />
   </ItemGroup>
 
