@@ -122,7 +122,10 @@ try
 "serfs.html",
 "tenant_farmers.html",
 "village_watchmen.html",
-"woodcutters.html"
+"woodcutters.html",
+"feathered_crossbowmen.html",
+"wuwei_mansion_guard.html",
+"xuanjia_heavy_cavalry.html"
     };
     foreach (string name in names)
     {
@@ -217,7 +220,7 @@ try
 
             }
             string json = JsonSerializer.Serialize(unit);
-            File.WriteAllText($@"C:\{unit.Name}.json", json);
+            File.WriteAllText($@"C:\CB\{unit.Name}.json", json);
             units.Add(unit);
             Console.WriteLine($"{unit.Name} - {units.Count}/{names.Count} DONE");
             Task.Delay(300).Wait();
@@ -256,6 +259,9 @@ StartIndex cannot be less than zero. (Parameter 'startIndex')
             Debug.WriteLine($"error bei [{name}]\n\n{ex.Message}\n{ex.InnerException}");
         }
     }
+
+    string json2= JsonSerializer.Serialize(units);
+    File.WriteAllText($@"C:\CB\allUnits.json", json2);
 }
 catch (Exception ex)
 {
