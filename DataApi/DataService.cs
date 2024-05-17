@@ -8,9 +8,9 @@ namespace DataApi
         {
             try
             {
-                HttpClient client = new();
+                //HttpClient client = new();
 
-                var result = await client.GetAsync("https://www.google.de");
+                //var result = await client.GetAsync("https://www.google.de");
 
 
                 //var request = WebRequest.Create("https://www.conquerorsbladehub.com/units/armiger_lancers.html");

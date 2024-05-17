@@ -8,7 +8,11 @@ HttpClient client = new();
 
 try
 {
-    List<string> names = new() { "cataphract_lancers.html",
+    List<string> names = new() {
+        "feathered_crossbowmen.html",
+        "wuwei_mansion_guard.html",
+        "xuanjia_heavy_cavalry.html",
+        "cataphract_lancers.html",
 "chevaliers.html",
 "falconetti_gunners.html",
 "fire_lance_cavalry.html",
