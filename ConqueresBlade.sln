@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConqueresBlade.Server", "ConqueresBlade\Server\ConqueresBlade.Server.csproj", "{E3717044-9D84-427D-8F9E-E4A1859EFEF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConqueresBlade.Server", "ConqueresBlade\Server\ConqueresBlade.Server.csproj", "{E3717044-9D84-427D-8F9E-E4A1859EFEF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConqueresBlade.Client", "ConqueresBlade\Client\ConqueresBlade.Client.csproj", "{931CB85F-51BD-4F5B-A1E8-AEE0B41B07A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConqueresBlade.Client", "ConqueresBlade\Client\ConqueresBlade.Client.csproj", "{931CB85F-51BD-4F5B-A1E8-AEE0B41B07A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConqueresBlade.Shared", "ConqueresBlade\Shared\ConqueresBlade.Shared.csproj", "{C663699D-65EB-4BB0-B2AA-E956BB012BDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConqueresBlade.Shared", "ConqueresBlade\Shared\ConqueresBlade.Shared.csproj", "{C663699D-65EB-4BB0-B2AA-E956BB012BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataApi", "DataApi\DataApi.csproj", "{F8BC1631-CAF8-43BF-B35C-374A1ABEAE08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebugTest", "DebugTest\DebugTest.csproj", "{EDCB5007-8C83-496F-B891-9B766E63149F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{C663699D-65EB-4BB0-B2AA-E956BB012BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C663699D-65EB-4BB0-B2AA-E956BB012BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C663699D-65EB-4BB0-B2AA-E956BB012BDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8BC1631-CAF8-43BF-B35C-374A1ABEAE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8BC1631-CAF8-43BF-B35C-374A1ABEAE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8BC1631-CAF8-43BF-B35C-374A1ABEAE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8BC1631-CAF8-43BF-B35C-374A1ABEAE08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCB5007-8C83-496F-B891-9B766E63149F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCB5007-8C83-496F-B891-9B766E63149F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCB5007-8C83-496F-B891-9B766E63149F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCB5007-8C83-496F-B891-9B766E63149F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
