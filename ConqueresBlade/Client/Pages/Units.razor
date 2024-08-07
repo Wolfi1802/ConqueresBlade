@@ -38,8 +38,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var unit in localUnits)
-        {
+        <Virtualize Context="unit" Items="localUnits">
             <tr>
                 <td>@unit.Name</td>
                 <td>@unit.Acquisition</td>
@@ -67,8 +66,7 @@
                 <td>@unit.Path3.Count</td>
                 <td>@unit.Path4.Count</td>
             </tr>
-
-        }
+        </Virtualize>
     </tbody>
 </table>
 @code
